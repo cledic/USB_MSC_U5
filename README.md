@@ -8,6 +8,5 @@ In the "source" folder there are some of this **important** files.
 
 After the program is running, I see this new device on the **Device Manager**:
 
-
-    ![Device Manager](/asset/images/device.png)
+![Device Manager](/images/device.png)
 

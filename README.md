@@ -4,3 +4,4 @@ I have some problems starting USB MSC device type on a STM32U5 using AZURE.
 
 I posted here my full project and some info about the problem.
 
+In the "source" folder there are some "important" files.

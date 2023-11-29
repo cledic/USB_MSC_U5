@@ -16,5 +16,5 @@ But there are no hard drives present in Explorer.
 
 If I stop the program, randomly, I see that it stop here:
 
-![Device Manager](/images/same point at pause.png)
+![Device Manager](/images/pause.png)
 

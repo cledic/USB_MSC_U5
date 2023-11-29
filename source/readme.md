@@ -1,4 +1,13 @@
-1. **usb_otg.c** I added the line "__HAL_RCC_SYSCFG_CLK_ENABLE();" inside the function "MX_USB_OTG_HS_PCD_Init" to make things running, but not working.
+1. **usb_otg.c** I added the line "__HAL_RCC_SYSCFG_CLK_ENABLE();" inside the function "MX_USB_OTG_HS_PCD_Init" to make things running, but not working:
+```
+void MX_USB_OTG_HS_PCD_Init(void)
+{
+
+  /* USER CODE BEGIN USB_OTG_HS_Init 0 */
+  __HAL_RCC_SYSCFG_CLK_ENABLE();
+  /* USER CODE END USB_OTG_HS_Init 0 */
+```
+
 2. **app_usbx_device.h** Where I configured the stack size
 3. **ux_device_msc.c** Here I use the "HAL_SD_ReadBlocks_DMA" and "HAL_SD_BlockBlocks_DMA" function to access the SDCard.I used a flag mechanism to manage the termination of the transfer with the DMA.
 4. **app_usbx_device.c** This is how I start the USB process:

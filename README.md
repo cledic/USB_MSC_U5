@@ -2,7 +2,7 @@
 
 I have some problems running USB MSC device type on a STM32U5 using AZURE.
 
-I posted here my full project (*USB_MSC_newprj.zip*) and some info about the problem. The project started from a CUBEMX project, then I edited some files to complete it and for doing some personalization for my **board**. 
+I posted here my full project (*USB_MSC_newprj.zip*) and some info about the problem. The project started from a CUBEMX project, then I edited some files to complete it and for doing some personalization for my **board**. Electrically the connection to the USB connector is simple: just the two DP and DN wires, I did not use the UCPD functionality.
 
 In the "source" folder there are some of this **important** files.
 

@@ -36,3 +36,4 @@ static VOID app_ux_device_thread_entry(ULONG thread_input)
   HAL_PCD_Start(&hpcd_USB_OTG_HS);
 }
 ```
+

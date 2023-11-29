@@ -10,7 +10,9 @@ After the program is running, I see this new device on the **Device Manager**:
 
 ![Device Manager](/images/device.png)
 
+
 But there are no hard drives present in Explorer.
+
 
 If I stop the program, randomly, I see that it stop here:
 

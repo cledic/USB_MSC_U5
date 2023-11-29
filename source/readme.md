@@ -4,7 +4,8 @@
 4. **app_usbx_device.c** This is how I start the USB process:
 
 
-```static VOID app_ux_device_thread_entry(ULONG thread_input)
+```
+static VOID app_ux_device_thread_entry(ULONG thread_input)
 {
   /* USER CODE BEGIN app_ux_device_thread_entry */
   TX_PARAMETER_NOT_USED(thread_input);
@@ -22,4 +23,5 @@
 
   /* Start device USB */
   HAL_PCD_Start(&hpcd_USB_OTG_HS);
-}```
+}
+```

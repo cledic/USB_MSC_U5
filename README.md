@@ -14,7 +14,7 @@ After the program is running, I see this new device on the **Device Manager**:
 But there are no hard drives present in Explorer.
 
 
-If I stop the program, randomly, I see that it stop here:
+If I stop the program, randomly, I see that it stop here: **_ux_device_stack_transfer_request**
 
 ![Device Manager](/images/pause.png)
 

@@ -7,5 +7,7 @@ I posted here my full project and some info about the problem. The project start
 In the "source" folder there are some of this **important** files.
 
 After the program is running, I see this new device on the **Device Manager**:
-![Device Manager](/images/device.png)
+
+
+    ![Device Manager](/images/device.png)
 

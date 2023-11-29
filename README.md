@@ -14,7 +14,7 @@ After the program is running on my board, I see this new device on the **Device 
 But there are no hard drives present in Explorer.
 
 
-If I put in pause the program, randomly, I see that it is always inside this function: **_ux_device_stack_transfer_request**
+If I put in pause randomly the program, I see that it is always inside this function: **_ux_device_stack_transfer_request**
 
 ![Device Manager](/images/pause.png)
 

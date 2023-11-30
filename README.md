@@ -21,9 +21,9 @@ If I put in pause randomly the program, I see that it is always inside this func
 
 After a minute or two, the PC show an error message like: "
 
-'''
+```
 The device reported a problem and was discontinued. (Code 43)
 
 USB device descriptor request failed
-'''
+```
 

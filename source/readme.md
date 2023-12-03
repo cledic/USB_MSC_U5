@@ -37,7 +37,7 @@ static VOID app_ux_device_thread_entry(ULONG thread_input)
 }
 ```
 
-5. I made a quit test to be sure that the SDCard is read correctly. I did a read at sector **65535** and I see a correct exFAT boot sector
+5. I made a quit test to be sure that **the SDCard is read correctly**. I did a read at sector **65535** and I see a correct exFAT boot sector
 
 ![Boot Sector](/images/exFAT_boot_sec.png)
 

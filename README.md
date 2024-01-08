@@ -21,5 +21,12 @@ If I put in pause randomly the program, I see that it is always inside this func
 
 ![Device Manager](/images/pause.png)
 
+UPDATE: Still not working, after I follow some tips I read on STM32U5 github. I updated a new project with the modification about to use the HSE clock to feed MCU and USB HS Mux.
+But, as I said, the program is still not working.
+
+![MCU Clock](/images/MCU_HSE_clock.png)
+
+![USB Clock](/images/USB_HSE_clock.png)
+
 
 

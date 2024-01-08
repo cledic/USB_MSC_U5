@@ -24,8 +24,10 @@ If I put in pause randomly the program, I see that it is always inside this func
 UPDATE: Still not working, after I follow some tips I read on STM32U5 github. I updated a new project with the modification about to use the HSE clock to feed MCU and USB HS Mux.
 But, as I said, the program is still not working.
 
+**MCU Clock set to HSE**
 ![MCU Clock](/images/MCU_HSE_clock.png)
 
+**USB HS clock set to HSE**
 ![USB Clock](/images/USB_HSE_clock.png)
 
 
